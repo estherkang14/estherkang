@@ -1,7 +1,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
 
+
+
 body {
   font-family: 'Thasadith', 'Helvetica', sans-serif;
+  background-color: #000000; 
+  color: #FFF;
+  overflow: hidden;
 }
 
+.nav {
+  width: 100%;
+  position: relative;
+  height: 65px;
+  padding: 0px 10px 8px 10px;
+  align-items: center;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000;
+}
+
+.footer {
+  width: 100%;
+  height: 75px;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  background-color: #FFF;
+  color: #000;
+}
+
+h1 {
+  font-size: 30px;
+}

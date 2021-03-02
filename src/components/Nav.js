@@ -2,7 +2,10 @@ function Nav() {
     
     return (
         <>
-        <h1>This is the NavBar component.</h1>
+        <div className="nav">
+            <h1>This is the NavBar component!</h1>
+        </div>
+        
         </>
     )
     
