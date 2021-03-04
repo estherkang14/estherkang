@@ -4,9 +4,15 @@ function Nav() {
     return (
         <>
         <div className="nav">
-            <img src={logo}/>
+            <img src={logo} className='logo'/>
             
-            <h2>This is an H2</h2>
+            <div id='navlinks'>
+                <h2 className='navlink'>about</h2>
+                <h2 className='navlink'>resume</h2> 
+                <h2 className='navlink'>portfolio</h2>
+            </div>
+            
+            
         </div>
         
         </>

@@ -19,8 +19,36 @@ body {
   overflow: hidden;
   background-color: #FFF;
   color: #000;
-  display: flex;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 30px;
+}
 
+.nav h2 {
+  border-bottom: #000;
+}
+
+.nav h2:hover {
+  transform: translateY(-3px);
+  transition: transform 0.1s ease-in-out;
+}
+
+
+#navlinks {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.navlink {
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.logo {
+  height: 30% !important;
+  padding-bottom: 100px;
+  /* width: 100%; */
 }
 
 .footer {
@@ -35,4 +63,16 @@ body {
 
 h1 {
   font-size: 30px;
+}
+
+@media (max-width: 550px) {
+  .nav {
+    width: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  .nav {
+    width: auto;
+  }
 }
