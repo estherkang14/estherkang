@@ -19,6 +19,8 @@ body {
   overflow: hidden;
   background-color: #FFF;
   color: #000;
+  display: flex;
+
 }
 
 .footer {

@@ -1,9 +1,12 @@
+
 function Nav() {
     
     return (
         <>
         <div className="nav">
-            <h1>This is the NavBar component!</h1>
+            <img src='../../public/eklogo2.png'/>
+            
+            <h2>This is an H2</h2>
         </div>
         
         </>
