@@ -61,20 +61,37 @@ body {
   bottom: 0;
   background-color: #FFF;
   color: #000;
-  padding: 0px 10px 8px 10px;
+  padding: 0px 20px 8px 10px;
   align-items: center;
   display: grid;
-  /* grid-template-columns: 30% 70%;
-  gap: 30px; */
+  grid-template-columns: 30% 70%;
+  gap: 30px;
 }
 
 .logoR {
   height: 10% !important;
-  width: 11.5%;
+  width: 17%;
   padding-top: 5px;
-  padding-right: 25px;
+  padding-right: 55px;
   position: relative;
   float: right;
+}
+
+.footer span:hover {
+  transform: translateY(-3px);
+  transition: transform 0.1s ease-in-out;
+}
+
+
+#footerlinks {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.footerlink {
+  margin: 10px;
+  padding-top: 10px;
 }
 
 h1 {
