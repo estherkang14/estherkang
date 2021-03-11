@@ -1,9 +1,11 @@
+import logo from '../imgs/eklogo3.png'
+
 function Footer() {
     
     return (
         <>
         <div className="footer">
-            <h1>This is the Footer component.</h1>
+            <div><img src={logo} className='logoR'/></div>
         </div>
         </>
     )
