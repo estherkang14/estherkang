@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
             <div id='footerlinks'>
                 <span class="footerlink">github</span>
-                <span class="footerlink">linked</span>
+                <span class="footerlink">linkedin</span>
                 <span class="footerlink">medium</span>
                 <span class="footerlink">email</span>
             </div>
