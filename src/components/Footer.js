@@ -11,10 +11,18 @@ function Footer() {
         <div className="footer">
             <div id='footerlinks'>
                 {/* <span class="footerlink"><FontAwesomeIcon icon={faGithub} size="2x" /></span> */}
-                <a class="footerlink" href="https://github.com/estherkang14" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-                <span class="footerlink"><FontAwesomeIcon icon={faLinkedin} size="2x" /></span>
-                <span class="footerlink"><FontAwesomeIcon icon={faMedium} size="2x" /></span>
-                <span class="footerlink"><FontAwesomeIcon icon={faEnvelope} size="2x" /></span>
+                <a class="footerlink" href="https://github.com/estherkang14" target="_blank">
+                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                </a>
+                <a class="footerlink" href="https://linkedin.com/in/esther-kang" target="_blank">
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                </a>
+                <a class="footerlink" href="https://estherkang14.medium.com" target="_blank">
+                    <FontAwesomeIcon icon={faMedium} size="2x" />
+                </a>
+                <a class="footerlink">
+                    <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                </a>
             </div>
             <div><img src={logo} className='logoR'/></div>
         </div>
