@@ -92,11 +92,6 @@ body {
   padding-top: 10px;
 }
 
-.footer span:hover {
-  transform: translateY(-3px);
-  transition: transform 0.1s ease-in-out;
-}
-
 .footer a {
   color: black;
 }
