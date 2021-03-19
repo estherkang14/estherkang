@@ -97,6 +97,15 @@ body {
   transition: transform 0.1s ease-in-out;
 }
 
+.footer a {
+  color: black;
+}
+
+.footer a:hover {
+  transform: translateY(-3px);
+  transition: transform 0.1s ease-in-out;
+}
+
 h1 {
   font-size: 30px;
 }
