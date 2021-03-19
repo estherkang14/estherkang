@@ -1,7 +1,8 @@
 import logo from '../imgs/eklogo3.png'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Footer() {
     
@@ -11,8 +12,8 @@ function Footer() {
             <div id='footerlinks'>
                 <span class="footerlink"><FontAwesomeIcon icon={faGithub} size="2x" /></span>
                 <span class="footerlink"><FontAwesomeIcon icon={faLinkedin} size="2x" /></span>
-                <span class="footerlink">medium</span>
-                <span class="footerlink">email</span>
+                <span class="footerlink"><FontAwesomeIcon icon={faMedium} size="2x" /></span>
+                <span class="footerlink"><FontAwesomeIcon icon={faEnvelope} size="2x" /></span>
             </div>
             <div><img src={logo} className='logoR'/></div>
         </div>

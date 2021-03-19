@@ -62,11 +62,14 @@ body {
   bottom: 0;
   background-color: #FFF;
   color: #000;
+  /* background-color: #000;
+  color: #FFF; */
   padding: 0px 20px 8px 10px;
   align-items: center;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 30px;
+  border-top: #FFF;
 }
 
 .logoR {
@@ -78,12 +81,6 @@ body {
   float: right;
 }
 
-.footer span:hover {
-  transform: translateY(-3px);
-  transition: transform 0.1s ease-in-out;
-}
-
-
 #footerlinks {
   height: 100%;
   width: 100%;
@@ -93,6 +90,11 @@ body {
 .footerlink {
   margin: 10px;
   padding-top: 10px;
+}
+
+.footer span:hover {
+  transform: translateY(-3px);
+  transition: transform 0.1s ease-in-out;
 }
 
 h1 {
