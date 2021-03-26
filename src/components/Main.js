@@ -4,7 +4,9 @@ function Main() {
     
     return (
         <>
-        <h1>Hello.</h1>
+        <div className="main">
+            <h1 className="main_h1">Hello.</h1>
+        </div>
         </>
     )
     
