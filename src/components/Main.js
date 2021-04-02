@@ -20,6 +20,10 @@ function Main() {
             {/* <div className='main_portfolio'>
                 Portfolio will go here
             </div> */}
+
+            {/* <div className='main_resume'>
+                Either Resume pdf will go here or a link to my resume
+            </div> */}
         </div>
     )
     
