@@ -16,6 +16,10 @@ function Main() {
                     - Dancer
                     - Food enthusiast - I could eat sushi and all types of noodles for days
             </div> */}
+
+            <div className='main_portfolio'>
+                Portfolio will go here
+            </div>
         </div>
     )
     
