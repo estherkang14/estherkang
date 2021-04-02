@@ -10,7 +10,7 @@ function Nav() {
                 <h2 className='navlink'>about</h2>
                 <h2 className='navlink'>portfolio</h2> 
                 <h2 className='navlink'>resume</h2>
-                <h2 className='navlink'>contact?</h2>
+                {/* <h2 className='navlink'>contact?</h2> */}
             </div>
             
             
