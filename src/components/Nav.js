@@ -8,8 +8,8 @@ function Nav() {
             
             <div id='navlinks'>
                 <h2 className='navlink'>about</h2>
-                <h2 className='navlink'>resume</h2> 
-                <h2 className='navlink'>portfolio</h2>
+                <h2 className='navlink'>portfolio</h2> 
+                <h2 className='navlink'>resume</h2>
             </div>
             
             
