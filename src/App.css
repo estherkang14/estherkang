@@ -105,9 +105,11 @@ body {
   overflow: auto;
   justify-content: center;
   text-align: center;
+
+  
 }
 
-.main_hi {
+.main_hi, .main_name {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
   -ms-animation: fadein 2s; /* Internet Explorer */
@@ -116,13 +118,13 @@ body {
   padding-right: 5px;
 }
 
-.main_name {
-  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 5s; /* Firefox < 16 */
-  -ms-animation: fadein 5s; /* Internet Explorer */
-  -o-animation: fadein 5s; /* Opera < 12.1 */
+/* .main_name {
+  -webkit-animation: fadein 5s; 
+  -moz-animation: fadein 5s; 
+  -ms-animation: fadein 5s; 
+  -o-animation: fadein 5s; 
   animation: fadein 5s;
-}
+} */
 
 h1 {
   font-size: 50px;
