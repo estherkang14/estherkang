@@ -5,7 +5,7 @@ function Main() {
     return (
         <div className="main">
             <div className="main_intro">
-                <h1 className="main_hi">hi. </h1> <h1 className="main_name"> my name is esther kang.</h1>
+                <h1 className="main_hi">hi! ☺</h1> <h1 className="main_name"> my name is esther kang.</h1>
             </div>
 
             {/* <div className='main_about'>
