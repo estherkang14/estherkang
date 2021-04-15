@@ -18,7 +18,7 @@ function Main() {
                     - Dancer <br />
                     - Food enthusiast - I could eat sushi and all types of noodles for days <br />
                     - extra text <br />
-                    - extra text <br /></h2>
+                    - extra text <br /> </h2>
             </div>
 
             {/* <div className='main_portfolio'>
