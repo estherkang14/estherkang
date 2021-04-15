@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Thasadith', 'Helvetica', sans-serif;
-  background-color: #000000; 
+  background-color: #000000;
   color: #FFF;
   overflow: hidden;
 }
@@ -105,9 +105,9 @@ body {
   overflow: auto;
   justify-content: center;
   text-align: center;
-  
+
   /* ***** WORK ON GRID  ***** */
-  
+
 }
 
 .main_hi, .main_name {
@@ -120,10 +120,10 @@ body {
 }
 
 /* .main_name {
-  -webkit-animation: fadein 5s; 
-  -moz-animation: fadein 5s; 
-  -ms-animation: fadein 5s; 
-  -o-animation: fadein 5s; 
+  -webkit-animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -ms-animation: fadein 5s;
+  -o-animation: fadein 5s;
   animation: fadein 5s;
 } */
 
@@ -166,35 +166,13 @@ h2 {
 }
 
 
-
-@media (max-width: 550px) {
-  .nav {
-    width: auto;
-  }
-
-  #navlinks {
-    width: auto;
-  }
-
-  .footer {
-    width: auto;
-  }
-}
-
 @media (max-width: 750px) {
   .nav {
     height: 45px;
     width: auto;
-    background-color: red;
-    position: relative;
-    padding: 0px 75px 20px 10px;
-    align-items: center;
-    overflow: hidden;
-    /* background-color: #FFF; */
-    color: #000;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    gap: 40px;
+    background-color: red; /* comment this out lol */
+    padding: 0px 100px 20px 20px;
+    gap: 30px;
   }
 
   #navlinks {
@@ -205,29 +183,15 @@ h2 {
   .footer {
     width: 100%;
     height: 60px;
-    position: absolute;
-    overflow: hidden;
-    bottom: 0;
     background-color: red;
-    /* background-color: #FFF; */
-    color: #000;
-    /* background-color: #000;
-    color: #FFF; */
-    padding: 0px 20px 8px 10px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 30% 70%;
+    padding: 0px 40px 8px 20px;
     gap: 30px;
-    border-top: #FFF;
   }
 
   .logoR {
-    height: 20% !important;
     width: 30%;
     padding-top: 5px;
-    padding-right: 55px;
-    position: relative;
-    float: right;
+    padding-right: 80px;
   }
 
   h2 {
@@ -238,4 +202,47 @@ h2 {
     width: 30%;
   } */
 
+}
+
+@media (max-width: 500px) {
+  .nav {
+    width: auto;
+    background-color: #fff;
+
+    height: 45px;
+    width: auto;
+    position: relative;
+    padding: 0px 75px 20px 10px;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: #FFF; */
+    color: #000;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 20px;
+  }
+
+  /* #navlinks {
+    padding-right: 500px;
+  } */
+
+  .navlink {
+    margin: 2px;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+
+  .footer {
+    width: auto;
+  }
+
+  .logoR {
+    width: 40%;
+    padding-top: 5px;
+    padding-right: 25px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
 }
