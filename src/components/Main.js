@@ -11,12 +11,14 @@ function Main() {
             <div className='main_about'>
                 <h1>about me</h1>
                 <h2>
-                I'm a: 
-                    - Korean American, born in New Jersey and raised in Maryland
-                    - Software Engineer / Full Stack Web Developer
-                    - Bootcamp graduate from Flatiron School '20 - #2commit2git
-                    - Dancer
-                    - Food enthusiast - I could eat sushi and all types of noodles for days</h2>
+                I'm a: <br />
+                    - Korean American, born in New Jersey and raised in Maryland <br />
+                    - Software Engineer / Full Stack Web Developer <br />
+                    - Bootcamp graduate from Flatiron School '20 - #2commit2git <br />
+                    - Dancer <br />
+                    - Food enthusiast - I could eat sushi and all types of noodles for days <br />
+                    - extra text <br />
+                    - extra text <br /></h2>
             </div>
 
             {/* <div className='main_portfolio'>

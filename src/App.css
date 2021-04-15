@@ -101,11 +101,13 @@ body {
 
 .main {
   display: grid;
-  height: 100%;
-  overflow: auto;
+  height: 50%;
+  overflow-y: auto !important;
   justify-content: center;
   text-align: center;
 
+  margin-left: 40px;
+  margin-right: 40px;
   
 }
 
