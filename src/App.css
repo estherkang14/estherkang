@@ -100,15 +100,19 @@ body {
 }
 
 .main {
-  display: flex;
+  display: grid;
   height: 100%;
   overflow: auto;
   justify-content: center;
   text-align: center;
 
-  /* ***** WORK ON GRID  ***** */
-
+  
 }
+
+.main_intro {
+  margin-top: 10px;
+}
+
 
 .main_hi, .main_name {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -116,6 +120,7 @@ body {
   -ms-animation: fadein 2s; /* Internet Explorer */
   -o-animation: fadein 2s; /* Opera < 12.1 */
   animation: fadein 2s;
+
   padding-right: 5px;
 }
 

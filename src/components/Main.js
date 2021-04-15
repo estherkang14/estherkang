@@ -9,6 +9,7 @@ function Main() {
             </div>
 
             <div className='main_about'>
+                <h1>about me</h1>
                 <h2>
                 I'm a: 
                     - Korean American, born in New Jersey and raised in Maryland
