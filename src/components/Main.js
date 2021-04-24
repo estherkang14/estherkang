@@ -12,12 +12,12 @@ function Main() {
                 <h1>about me</h1>
                 <h2>
                 I'm a: <br />
-                    - Korean American, born in New Jersey and raised in Maryland <br />
+                    - Korean American, born and raised on the East Coast <br />
                     - Software Engineer / Full Stack Web Developer <br />
                     - Bootcamp graduate from Flatiron School '20 - #2commit2git <br />
                     - Dancer <br />
                     - Food enthusiast - I could eat sushi and all types of noodles for days <br />
-                    - extra text <br />
+                    - Adventure seeker - love to travel! Currently in Seoul, South Korea <br />
                     - extra text <br /> </h2>
             </div>
 
