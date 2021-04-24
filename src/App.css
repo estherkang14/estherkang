@@ -53,12 +53,13 @@ body {
 
 .navlink {
   margin: 10px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .logo {
-  height: 30% !important;
-  padding-bottom: 100px;
+  height: 70% !important;
+  padding-top: 3px;
+  /* padding-bottom: 100px; */
   /* width: 100%; */
 }
 
