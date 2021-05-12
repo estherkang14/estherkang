@@ -3,11 +3,18 @@
 
 
 
+
 body {
   font-family: 'Thasadith', 'Helvetica', sans-serif;
   background-color: #000000;
   color: #FFF;
   overflow: hidden;
+  scroll-behavior: smooth;
+
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .nav {
@@ -18,8 +25,8 @@ body {
   /* padding: 0px 10px 8px 10px; */
   align-items: center;
   overflow: auto;
-  background-color: #FFF;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   /* display: grid;
   grid-template-columns: 70% 30%;
   gap: 100px; */
@@ -45,7 +52,7 @@ body {
 
 .nav a {
   /* color: #fff;  */
-  color: #000; 
+  color: #fff; 
   padding: 10px;
   margin: 0 5px;
 }
@@ -57,14 +64,14 @@ body {
   height: 100%;
 }
 
-.nav a:hover {
+.nav li:hover {
   transform: translateY(-3px);
   transition: transform 0.1s ease-in-out;
 }
 
 
 .logo {
-  height: 70% !important;
+  height: 50px !important;
   padding-top: 2px;
   /* padding-bottom: 100px; */
   /* width: 100%; */
@@ -76,10 +83,8 @@ body {
   position: absolute;
   overflow: hidden;
   bottom: 0;
-  background-color: #FFF;
-  color: #000;
-  /* background-color: #000;
-  color: #FFF; */
+  background-color: #000;
+  color: #fff;
   padding: 0px 20px 8px 10px;
   align-items: center;
   display: grid;
@@ -89,8 +94,8 @@ body {
 }
 
 .logoR {
-  height: 10% !important;
-  width: 17%;
+  height: 50px !important;
+  /* width: 17%; */
   padding-top: 5px;
   padding-right: 55px;
   position: relative;
@@ -109,7 +114,7 @@ body {
 }
 
 .footer a {
-  color: black;
+  color: #fff;
 }
 
 .footer a:hover {
@@ -142,7 +147,7 @@ body {
 
 .main_intro {
   height: 500px;
-  padding-top: 175px;
+  padding-top: 125px;
   padding-bottom: 50px;
   vertical-align: middle;
 }
@@ -159,14 +164,32 @@ body {
 }
 
 .down_arrow {
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s; /* Firefox < 16 */
-  -ms-animation: fadein 3s; /* Internet Explorer */
-  -o-animation: fadein 3s; /* Opera < 12.1 */
-  animation: fadein 3s;
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+  -ms-animation: fadein 5s; /* Internet Explorer */
+  -o-animation: fadein 5s; /* Opera < 12.1 */
+  animation: fadein 5s;
   color: #fff;
+  
 }
 
+.main_about {
+  height: 500px;
+  padding-top: 40px;
+  padding-bottom: 200px;
+}
+
+.main_portfolio {
+  height: 500px;
+  padding-top: 40px;
+  padding-bottom: 200px;
+}
+
+.main_resume {
+  height: 500px;
+  padding-top: 40px;
+  padding-bottom: 200px;
+}
 /* .main_name {
   -webkit-animation: fadein 5s;
   -moz-animation: fadein 5s;
@@ -304,3 +327,4 @@ a {
   color: #000;  
   /* change to white */
 }
+

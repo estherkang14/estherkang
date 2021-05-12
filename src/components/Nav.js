@@ -5,7 +5,7 @@ function Nav() {
         <>
         <div className="nav">
             <div className='navcontainer flex'>
-                <img src={logo} className='logo'/>
+                <a href='#intro'><img src={logo} className='logo'/></a>
             
                 {/* <div id='navlinks'>
                     <h2 className='navlink'>about</h2>
@@ -15,9 +15,9 @@ function Nav() {
                 </div> */}
                 <nav>
                     <ul>
-                        <li><a href='about.html'>about</a></li>
-                        <li><a href='portfolio.html'>portfolio</a></li>
-                        <li><a href='resume.html'>resume</a></li>
+                        <li><a href='#about'>about</a></li>
+                        <li><a href='#portfolio'>portfolio</a></li>
+                        <li><a href='#resume'>resume</a></li>
                     </ul>
                 </nav>
             </div>
